@@ -189,11 +189,11 @@ section{
 .box .bx{
     background-color: var(--main-color);
     position: absolute  ;
-    right: 0;
+    left: 0;
     top: 0;
     font-size: 20px;
     padding: 7px 10px;
-    border-radius:0 0 0 0.5rem ;
+    border-radius:0 0 0.5rem 0 ;
 }
 /* ....Service Sectin start........... */
 .service-container{
@@ -241,6 +241,7 @@ section{
     margin-bottom:30px ;
 }
 /* .........Contact Start........... */
+
 .main{
     display: flex;
     flex-wrap: wrap;
