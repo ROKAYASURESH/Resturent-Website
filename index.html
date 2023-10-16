@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resturant</title>
     <!-- Start of Async Drift Code -->
-<script>
-    "use strict";
-    
-    !function() {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-        t.factory = function(e) {
-          return function() {
-            var n = Array.prototype.slice.call(arguments);
-            return n.unshift(e), t.push(n), t;
-          };
-        }, t.methods.forEach(function(e) {
-          t[e] = t.factory(e);
-        }), t.load = function(t) {
-          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-          var i = document.getElementsByTagName("script")[0];
-          i.parentNode.insertBefore(o, i);
-        };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('yr3htug8vyui');
+    <script>
+        "use strict";
+
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('yr3htug8vyui');
     </script>
     <!-- End of Async Drift Code -->
     <link rel="stylesheet" href="style.css">
     <!-- icon link -->
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
     <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- ........................Navbar Start -->
     <header>
-        <a href="" class="logo" >Mitho<span style="color:white;">Khana</span></a>
-        
+        <a href="" class="logo">Mitho<span style="color:white;">Khana</span></a>
+
         <div class="bx bx-menu" id="menu-icon"></div>
 
         <ul class="navbar">
@@ -75,162 +77,179 @@
 
 
     <!-- ..............About Section............... -->
-<section class="about" id="about">
-    <div class="about-img">
-        <img src="img/abouts (1).png" alt="">
-    </div>
-
-    <div class="about-text">
-        <span style="text-align: center;">About Us</span>
-        <h2 >Experience traditional Nepalese<br> charm at Mitho Khana</h2>
-        <p>
-            "Mitho Khana" is a Nepali restaurant that serves delicious and authentic Nepali cuisine. The restaurant's name "Mitho Khana" translates to "delicious food" in Nepali, reflecting its focus on providing 
-            customers with high-quality and tasty food. The menu features traditional Nepali dishes such as momos, dal bhat, and chow mein, as well as other popular South Asian dishes. The restaurant also has a cozy
-             and welcoming atmosphere that makes it the perfect spot for a casual meal or a special occasion. 
-        </p>
-        <a href="#" class="btn">learn more</a>
-
-    </div>
-</section>
-
-
-<!-- ....................Menu Section Start............. -->
-<section class="menu" id="menu">
-    <div class="heading">
-        <span>Food Menu</span>
-        <h2>Taste the flavors of Nepal at Mitho Khana</h2>
-        <p>"Mitho Khana" offers a diverse menu of traditional Nepali dishes, South Asian dishes, with vegetarian and vegan options, and daily specials and seasonal menu items.</p>
-    </div>
-
-    <div class="menu-container">
-        <div class="box">
-            <div class="box-img">
-                <img src="img/abouts (2).png" alt="">
-            </div>
-            <h2>Chicken Burger</h2>
-            <h3>Tasty Food</h3>
-            <span>$11.00</span>
-            <i class='bx bxs-cart-download'></i>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/abouts (1).png" alt="">
         </div>
 
-        <div class="box">
-            <div class="box-img">
-                <img src="img/abouts (3).png" alt="">
-            </div>
-            <h2>Special Burger</h2>
-            <h3>Tasty Food</h3>
-            <span>$11.00</span>
-            <i class='bx bxs-cart-download'></i>
-        </div>
-
-        <div class="box">
-            <div class="box-img">
-                <img src="img/abouts (4).png" alt="">
-            </div>
-            <h2>Chicken fry Burger</h2>
-            <h3>Tasty Food</h3>
-            <span>$11.00</span>
-            <i class='bx bxs-cart-download'></i>
-        </div>
-    </div>
-</section>
-<!-- ....................Service Section Start............. -->
-<section class="services" id="services">
-    <div class="heading">
-        <span>Services</span>
-        <h2>We provide best quality food</h2>
-        <p>At "Mitho Khana" restaurant, the service is friendly and attentive. <br> The staff is well-trained in Nepali culture and cuisine, and are happy to answer any questions<br>
-             customers may have about the menu or ingredients. They strive to make sure that customers have a<br> 
-             pleasant dining experience by ensuring prompt service, maintaining cleanliness and providing a cozy atmosphere. 
-             <br>The restaurant also offers take-out and delivery services for customers who prefer to enjoy their meals at home.<br>
-              Overall, the service at "Mitho Khana" is designed to make customers feel welcomed,<br> comfortable and satisfied with their meals.</p>
-    </div>
-
-    <div class="service-container">
-        <div class="s-box">
-            <img src="img/s33 (3).png" alt="">
-            <h3>Order</h3>
+        <div class="about-text">
+            <span style="text-align: center;">About Us</span>
+            <h2>Experience traditional Nepalese<br> charm at Mitho Khana</h2>
             <p>
-                At "Mitho Khana", we make it easy to place your order. Our user-friendly order form allows you to quickly and easily select the products or services you need, and provides all the necessary fields for your contact information, billing and shipping addresses, and any other relevant details.
+                "Mitho Khana" is a Nepali restaurant that serves delicious and authentic Nepali cuisine. The
+                restaurant's name "Mitho Khana" translates to "delicious food" in Nepali, reflecting its focus on
+                providing
+                customers with high-quality and tasty food. The menu features traditional Nepali dishes such as momos,
+                dal bhat, and chow mein, as well as other popular South Asian dishes. The restaurant also has a cozy
+                and welcoming atmosphere that makes it the perfect spot for a casual meal or a special occasion.
             </p>
+            <a href="#" class="btn">learn more</a>
+
+        </div>
+    </section>
+
+
+    <!-- ....................Menu Section Start............. -->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>Food Menu</span>
+            <h2>Taste the flavors of Nepal at Mitho Khana</h2>
+            <p>"Mitho Khana" offers a diverse menu of traditional Nepali dishes, South Asian dishes, with vegetarian and
+                vegan options, and daily specials and seasonal menu items.</p>
         </div>
 
-        <div class="s-box">
-            <img src="img/s33 (2).png" alt="">
-            <h3>shipping</h3>
-            <p>
-                "We offer a wide range of shipping options to meet your needs, including standard, expedited, and express delivery. Our team ensures that your order is carefully packaged and shipped promptly to ensure you receive your purchase as soon as possible. We also provide tracking information for all shipments so you can easily monitor the progress of your delivery."
-            </p>
-        </div>
-
-        <div class="s-box">
-            <img src="img/s33 (1).png"">
-            <h3>Delivered</h3>
-            <p>"We pride ourselves on delivering your order to you as quickly and efficiently as possible. Once your order has been processed and shipped, you'll receive a tracking number and estimated delivery date, so you can keep an eye on your package's progress every step of the way."
-            </p>
-        </div>
-    </div>
-</section>
-
-<!-- /* ....call to action start........... */ -->
-
-<section class="cta">
-    <h2>We make quality food <br> Every Day!</h2>
-    <a href="#" class="btn">Let's talk</a>
-</section>
-
-<!-- footer start -->
-<section id="contact">
-    <div class="footer">
-        <div class="main">
-            <div class="col">
-                <h4>Menu Links</h4>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Contact</a></li>
-                    
-                </ul>
-            </div>
-
-            <div class="col">
-                <h4>Our Service</h4>
-                <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Develoep</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Product AMa</a></li>
-                    <li><a href="#">Android Developer</a></li>
-                </ul>
-            </div>
-
-            <div class="col">
-                <h4>Information</h4>
-                <ul>
-                    <li><a href="#">ABoutus</a></li>
-                    <li><a href="#">Delivery information</a></li>
-                    <li><a href="#">Private Policyy</a></li>
-                    <li><a href="#">Terms and Conditions</a></li>
-                </ul>
-            </div>
-
-            <div class="col">
-                <h4>Information</h4>
-                <div class="social">
-                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
+        <div class="menu-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/abouts (2).png" alt="">
                 </div>
+                <h2>Chicken Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>$11.00</span>
+                <i class='bx bxs-cart-download'></i>
             </div>
 
-        </div>
-    </div>
-</section>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/abouts (3).png" alt="">
+                </div>
+                <h2>Special Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>$11.00</span>
+                <i class='bx bxs-cart-download'></i>
+            </div>
 
-<script src="script.js"></script>
-    
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/abouts (4).png" alt="">
+                </div>
+                <h2>Chicken fry Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>$11.00</span>
+                <i class='bx bxs-cart-download'></i>
+            </div>
+        </div>
+    </section>
+    <!-- ....................Service Section Start............. -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Services</span>
+            <h2>We provide best quality food</h2>
+            <p>At "Mitho Khana" restaurant, the service is friendly and attentive. <br> The staff is well-trained in
+                Nepali culture and cuisine, and are happy to answer any questions<br>
+                customers may have about the menu or ingredients. They strive to make sure that customers have a<br>
+                pleasant dining experience by ensuring prompt service, maintaining cleanliness and providing a cozy
+                atmosphere.
+                <br>The restaurant also offers take-out and delivery services for customers who prefer to enjoy their
+                meals at home.<br>
+                Overall, the service at "Mitho Khana" is designed to make customers feel welcomed,<br> comfortable and
+                satisfied with their meals.
+            </p>
+        </div>
+
+        <div class="service-container">
+            <div class="s-box">
+                <img src="img/s33 (3).png" alt="">
+                <h3>Order</h3>
+                <p>
+                    At "Mitho Khana", we make it easy to place your order. Our user-friendly order form allows you to
+                    quickly and easily select the products or services you need, and provides all the necessary fields
+                    for your contact information, billing and shipping addresses, and any other relevant details.
+                </p>
+            </div>
+
+            <div class="s-box">
+                <img src="img/s33 (2).png" alt="">
+                <h3>shipping</h3>
+                <p>
+                    "We offer a wide range of shipping options to meet your needs, including standard, expedited, and
+                    express delivery. Our team ensures that your order is carefully packaged and shipped promptly to
+                    ensure you receive your purchase as soon as possible. We also provide tracking information for all
+                    shipments so you can easily monitor the progress of your delivery."
+                </p>
+            </div>
+
+            <div class="s-box">
+                <img src="img/s33 (1).png">
+                <h3>Delivered</h3>
+                <p>"We pride ourselves on delivering your order to you as quickly and efficiently as possible. Once your
+                    order has been processed and shipped, you'll receive a tracking number and estimated delivery date,
+                    so you can keep an eye on your package's progress every step of the way."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- /* ....call to action start........... */ -->
+
+    <section class="cta">
+        <h2>We make quality food <br> Every Day!</h2>
+        <a href="contact.html" class="btn">Let's talk</a>
+    </section>
+
+    <!-- footer start -->
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="col">
+                    <h4>Menu Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Our Service</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Develoep</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Product AMa</a></li>
+                        <li><a href="#">Android Developer</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">ABoutus</a></li>
+                        <li><a href="#">Delivery information</a></li>
+                        <li><a href="#">Private Policyy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Information</h4>
+                    <div class="social">
+                        <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                        <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                        <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                        <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
