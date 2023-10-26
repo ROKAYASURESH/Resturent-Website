@@ -386,4 +386,13 @@ section{
         width: 100%;
         text-align: center;
     }
+    .about-img, .about-text, .heading{
+        margin-top: 10px;
+    }
+    section{
+        padding-top: 70px;
+    }
+}
+.about-img, .about-text, .heading{
+    margin-top: 20px;
 }
